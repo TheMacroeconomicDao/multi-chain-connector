@@ -3,7 +3,7 @@ from django.db import models
 
 class Wallet(models.Model):
 
-    class __Meta__:
+    class Meta:
         db_table = "Wallet"
 
     user_id = models.IntegerField(default=0)
